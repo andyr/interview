@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T15:34:46.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="ybkNlpZIXocnUv7w2cyx" type="github"><diagram id="jnyu4eQC2J0sgfC4yVCM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T23:58:46.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="rSsJfhZwPc45TLmcTHv2" version="14.4.3" type="github">
+  <diagram id="jnyu4eQC2J0sgfC4yVCM" name="Page-1">
+    <mxGraphModel dx="1306" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="78rBqXah4us7HXUuL7Dr-5" value="&lt;b&gt;TinyURL&lt;/b&gt;&lt;br&gt;Functional&lt;br&gt;- Input: long url, output=short url&lt;br&gt;- Short url should point to long url (GET including qs params)&lt;br&gt;- Nice to have: expiration window (not accessible after some time window)&lt;br&gt;&lt;br&gt;Technical&lt;br&gt;- Should work any length url supported by RFC&lt;br&gt;- Shortlink - should use short hash&lt;br&gt;- TTL - shortlink" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="45" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="310" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="78rBqXah4us7HXUuL7Dr-9" target="78rBqXah4us7HXUuL7Dr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78rBqXah4us7HXUuL7Dr-9" target="78rBqXah4us7HXUuL7Dr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="78rBqXah4us7HXUuL7Dr-9" target="78rBqXah4us7HXUuL7Dr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-9" value="LB" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-10" value="LB" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-11" value="LB" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-12" value="LB" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=71.25;entryPerimeter=0;" edge="1" parent="1" source="78rBqXah4us7HXUuL7Dr-13" target="78rBqXah4us7HXUuL7Dr-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-13" value="App Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="78rBqXah4us7HXUuL7Dr-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-28" value="repliicate({long:short})" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="78rBqXah4us7HXUuL7Dr-26">
+          <mxGeometry x="0.183" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-15" value="App Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-16" value="App Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-21" value="key-value store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="185" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-22" value="Persistence layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="150" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-23" value="key-value store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="720" y="195" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-24" value="key-value store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="205" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-25" value="key-value read replicas" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="440" width="100" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-27" value="Edge cache servers&lt;br&gt;(like Fastly)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-29" value="another client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="78rBqXah4us7HXUuL7Dr-31" value="&lt;b&gt;app server functionality&lt;/b&gt;&lt;br&gt;url_shortener(longurl) -&amp;gt; shorturl&lt;br&gt;boundary = 1 billion&lt;br&gt;shorthash = md5(longurl) -&amp;gt; 128bit number % boundary&lt;br&gt;return &quot;http://tinyurl/{shorthash}&quot;&lt;br&gt;&lt;br&gt;write to key-value DB (eventually consistent)&lt;br&gt;write to Edge cache (for fast response time)" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="330" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
